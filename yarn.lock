@@ -2210,9 +2210,9 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-big.js@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/big.js/-/big.js-6.1.0.tgz#98d9f6479082211c6ff6e76d3cf4ce66347f4210"
+big.js@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/big.js/-/big.js-6.1.1.tgz#63b35b19dc9775c94991ee5db7694880655d5537"
 
 bignumber.js@^9.0.0:
   version "9.0.1"

@@ -22,7 +22,7 @@ const walletConnection = {
   getAccountId: () => 'test.near'
 };
 const nearConfig = {
-  networkId: 'default',
+  networkId: 'testnet',
   nodeUrl: 'https://rpc.nearprotocol.com',
   contractName: 'test.near',
   walletUrl: 'https://wallet.nearprotocol.com',

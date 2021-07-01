@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: '12'
       - name: Install modules
-        run: yarn
+        run: yarn install --frozen-lockfile
       - name: Build and run tests
         env:
           IS_GITHUB_ACTION: true

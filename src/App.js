@@ -44,7 +44,7 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
 
   const signIn = () => {
     wallet.requestSignIn(
-      nearConfig.contractName,
+      {contractId: nearConfig.contractName, methodNames: ['addMessage']},
       'NEAR Guest Book'
     );
   };

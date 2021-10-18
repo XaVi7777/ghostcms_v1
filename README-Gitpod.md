@@ -51,9 +51,9 @@ Data collection
 ===============
 By using Gitpod in this project, you agree to opt-in to basic, anonymous analytics. No personal information is transmitted. Instead, these usage statistics aid in discovering potential bugs and user flow information.
 
-  [smart contract docs]: https://docs.nearprotocol.com/docs/roles/developer/contracts/assemblyscript
+  [smart contract docs]: https://docs.near.org/docs/develop/contracts/overview
   [asp]: https://www.npmjs.com/package/@as-pect/cli
   [jest]: https://jestjs.io/
-  [NEAR]: https://nearprotocol.com/
-  [AssemblyScript]: https://docs.assemblyscript.org/
+  [NEAR]: https://near.org/
+  [AssemblyScript]: https://www.assemblyscript.org/introduction.html
   [React]: https://reactjs.org

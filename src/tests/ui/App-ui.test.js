@@ -23,9 +23,9 @@ const walletConnection = {
 };
 const nearConfig = {
   networkId: 'testnet',
-  nodeUrl: 'https://rpc.nearprotocol.com',
+  nodeUrl: 'https://rpc.testnet.near.org',
   contractName: 'test.near',
-  walletUrl: 'https://wallet.nearprotocol.com',
+  walletUrl: 'https://wallet.testnet.near.org',
   helperUrl: 'https://near-contract-helper.onrender.com'
 };
 

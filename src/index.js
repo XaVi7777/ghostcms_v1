@@ -1,14 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
-import getConfig from "./config.js";
-import * as nearAPI from "near-api-js";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import getConfig from './config.js';
+import * as nearAPI from 'near-api-js';
 
 // Initializing contract
 async function initContract() {
   // get network configuration values from config.js
   // based on the network ID we pass to getConfig()
-  const nearConfig = getConfig(process.env.NODE_ENV || "testnet");
+  const nearConfig = getConfig(process.env.NODE_ENV || 'testnet');
 
   // create a keyStore for signing transactions using the user's key
   // which is located in the browser local storage after user logs in
@@ -37,9 +37,9 @@ async function initContract() {
     nearConfig.contractName,
     {
       // View methods are read-only – they don't modify the state, but usually return some value
-      viewMethods: ["getMessages"],
+      viewMethods: ['getMessages'],
       // Change methods can modify the state, but you don't receive the returned value when called
-      changeMethods: ["addMessage"],
+      changeMethods: ['addMessage'],
       // Sender is the account ID to initialize transactions.
       // getAccountId() will return empty string if user is still unauthorized
       sender: walletConnection.getAccountId(),
@@ -58,7 +58,7 @@ window.nearInitPromise = initContract().then(
         nearConfig={nearConfig}
         wallet={walletConnection}
       />,
-      document.getElementById("root")
+      document.getElementById('root')
     );
   }
 );

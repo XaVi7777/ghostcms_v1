@@ -33,7 +33,11 @@ async function initContract() {
 
   // Initializing our contract APIs by contract name and configuration
   const contract = await new nearAPI.Contract(
+    // User's accountId as a string
     walletConnection.account(),
+    // accountId of the contract we will be loading
+    // NOTE: All contracts on NEAR are deployed to an account and
+    // accounts can only have one contract deployed to them. 
     nearConfig.contractName,
     {
       // View methods are read-only – they don't modify the state, but usually return some value

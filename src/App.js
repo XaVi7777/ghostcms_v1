@@ -44,8 +44,10 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
 
   const signIn = () => {
     wallet.requestSignIn(
-      nearConfig.contractName,
-      'NEAR Guest Book'
+      nearConfig.contractName, //contract requesting access
+      'NEAR Guest Book', //optional name
+      null, //optional URL to redirect to if the sign in was successful
+      null //optional URL to redirect to if the sign in was NOT successful
     );
   };
 

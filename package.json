@@ -7,7 +7,7 @@
     "build:contract": "asb",
     "build:contract:debug": "asb --target debug",
     "build:web": "parcel build src/index.html --public-url ./",
-    "deploy": "yarn build && near deploy && gh-pages -d dist/",
+    "deploy": "yarn build && near deploy",
     "dev": "yarn build:contract:debug && near dev-deploy && nodemon --watch assembly -e ts --exec yarn dev:start",
     "lint": "eslint \"./**/*.js\" \"./**/*.jsx\"",
     "start": "yarn deploy && parcel src/index.html",

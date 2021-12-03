@@ -104,7 +104,7 @@ As you can see in `package.json`, this does two things:
 
   [NEAR]: https://nearprotocol.com/
   [yarn]: https://yarnpkg.com/
-  [AssemblyScript]: https://docs.assemblyscript.org/
+  [AssemblyScript]: https://www.assemblyscript.org/introduction.html
   [React]: https://reactjs.org
   [smart contract docs]: https://docs.nearprotocol.com/docs/roles/developer/contracts/assemblyscript
   [asp]: https://www.npmjs.com/package/@as-pect/cli

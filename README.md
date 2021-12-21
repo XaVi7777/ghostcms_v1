@@ -102,16 +102,16 @@ As you can see in `package.json`, this does two things:
 
 
 
-  [NEAR]: https://nearprotocol.com/
+  [NEAR]: https://near.org/
   [yarn]: https://yarnpkg.com/
-  [AssemblyScript]: https://docs.assemblyscript.org/
+  [AssemblyScript]: https://www.assemblyscript.org/introduction.html
   [React]: https://reactjs.org
-  [smart contract docs]: https://docs.nearprotocol.com/docs/roles/developer/contracts/assemblyscript
+  [smart contract docs]: https://docs.near.org/docs/develop/contracts/overview
   [asp]: https://www.npmjs.com/package/@as-pect/cli
   [jest]: https://jestjs.io/
-  [NEAR accounts]: https://docs.nearprotocol.com/docs/concepts/account
-  [NEAR Wallet]: https://wallet.nearprotocol.com
-  [near-cli]: https://github.com/nearprotocol/near-cli
+  [NEAR accounts]: https://docs.near.org/docs/concepts/account
+  [NEAR Wallet]: https://wallet.near.org
+  [near-cli]: https://github.com/near/near-cli
   [CLI]: https://www.w3schools.com/whatis/whatis_cli.asp
-  [create-near-app]: https://github.com/nearprotocol/create-near-app
+  [create-near-app]: https://github.com/near/create-near-app
   [gh-pages]: https://github.com/tschaub/gh-pages

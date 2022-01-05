@@ -8,7 +8,7 @@ import * as nearAPI from 'near-api-js';
 async function initContract() {
   // get network configuration values from config.js
   // based on the network ID we pass to getConfig()
-  const nearConfig = getConfig(process.env.NODE_ENV || 'testnet');
+  const nearConfig = getConfig(process.env.NEAR_ENV || 'testnet');
 
   // create a keyStore for signing transactions using the user's key
   // which is located in the browser local storage after user logs in
@@ -37,7 +37,7 @@ async function initContract() {
     walletConnection.account(),
     // accountId of the contract we will be loading
     // NOTE: All contracts on NEAR are deployed to an account and
-    // accounts can only have one contract deployed to them. 
+    // accounts can only have one contract deployed to them.
     nearConfig.contractName,
     {
       // View methods are read-only – they don't modify the state, but usually return some value

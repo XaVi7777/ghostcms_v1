@@ -80,7 +80,7 @@ Modify the line in `src/config.js` that sets the account name of the contract. S
 Step 3: change remote URL if you cloned this repo 
 -------------------------
 
-Unless you forked this repository you will need to change the remote URL to a repo that you have commit access to. This will allow auto deployment to Github Pages from the command line.
+Unless you forked this repository you will need to change the remote URL to a repo that you have commit access to. This will allow auto deployment to GitHub Pages from the command line.
 
 1) go to GitHub and create a new repository for this project
 2) open your terminal and in the root of this project enter the following:

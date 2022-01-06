@@ -6,8 +6,8 @@ os:
   - osx
   - windows
 env:
-  - NODE_ENV=ci YARN_GPG=no
-  - NODE_ENV=ci-betanet YARN_GPG=no
+  - NEAR_ENV=ci YARN_GPG=no
+  - NEAR_ENV=ci-betanet YARN_GPG=no
 cache: yarn
 script:
   - yarn lint && yarn test

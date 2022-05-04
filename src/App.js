@@ -9,7 +9,7 @@ const App = ({ contract, nearConfig, wallet }) => {
 
   useEffect(() => {
     contract.isSubscriber({ currentUserID: 'ikursakov.testnet' }).then((result => {
-      console.log('result', result)
+      console.log('response', result)
     }));
   }, []);
 

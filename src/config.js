@@ -1,7 +1,7 @@
-const CONTRACT_NAME = process.env.CONTRACT_NAME || 'guest-book.testnet';
+const CONTRACT_NAME = process.env.CONTRACT_NAME || 'ghost-cms2.testnet';
 
 function getConfig(env) {
-  switch(env) {
+  switch (env) {
     case 'mainnet':
       return {
         networkId: 'mainnet',
